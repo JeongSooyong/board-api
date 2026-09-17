@@ -9,3 +9,6 @@ const pool = mysql.createPool({
 });
 
 module.exports = pool;
+
+// JWT 비밀 키 설정
+JWT_SECRET=a1a2a3a4
